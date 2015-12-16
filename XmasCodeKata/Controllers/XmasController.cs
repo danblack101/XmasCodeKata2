@@ -6,8 +6,8 @@ namespace XmasCodeKata.Controllers
     {
         public string OnTheNthDay(int day)
         {
-            return "A Partridge in a pear Tree";
+            var carol = new TwelveDaysCarol();
+            return carol.Day(day);
         }
-
     }
 }
