@@ -4,6 +4,8 @@ namespace XmasCodeKata.Controllers
 {
     public class XmasController : ApiController
     {
+
+        [HttpGet]
         public string OnTheNthDay(int day)
         {
             var carol = new TwelveDaysCarol();
